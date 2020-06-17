@@ -10,9 +10,9 @@ using Newtonsoft.Json;
 
 namespace api
 {
-    public static class ValuesFunction
+    public static class Function1
     {
-        [FunctionName("values")]
+        [FunctionName("Function1")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
